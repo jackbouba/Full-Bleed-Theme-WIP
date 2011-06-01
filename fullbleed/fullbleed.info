@@ -1,0 +1,32 @@
+core = 7.x
+description = Fullbleed is a base theme that is all about going with the flow. It takes care of key reset and utility tasks so that sub-themes can get on with their job.
+engine = phptemplate
+name = Fullbleed
+
+; Regions =====================================================================
+
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[content] = Content
+regions[header] = Header
+regions[help] = Help
+regions[footer] = Footer
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+; Stylesheets =================================================================
+
+stylesheets[all][] = 1140.css
+stylesheets[all][] = styles.css
+stylesheets[all][] = ie.css
+scripts[] = css3-mediaqueries.js
+scripts[] = jquery.backstretch.min.js
+
+
+; Information added by drupal.org packaging script on 2010-09-30
+version = "7.x-3.0-beta3"
+core = "7.x"
+project = "Fullbleed"
+datestamp = "1285858563"
+
